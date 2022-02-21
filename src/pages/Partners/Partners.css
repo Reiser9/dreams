@@ -1,0 +1,127 @@
+/* Представители и партнеры */
+.partners{
+    position: relative;
+}
+
+.partners__inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.partners__content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    margin-top: 4rem;
+    grid-gap: 30px;
+}
+
+.partners__item{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.partners__item--text--inner{
+    width: 100%;
+    padding: 2.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.partners__item--img--inner{
+    width: 225px;
+    height: 100%;
+    flex-shrink: 0;
+}
+
+.partners__item--img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.partners__social--inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2.2rem;
+}
+
+.partners__social--link{
+    width: 26px;
+    display: flex;
+    margin-right: 1.8rem;
+}
+
+.partners__social--link:last-child{
+    margin-right: 0;
+}
+
+.partners__text--money{
+    margin-top: 0.6rem;
+    font-size: 4.5rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #0B7DEF;
+    text-shadow: 0 0 20px #006FDE;
+}
+
+.partners__text--text{
+    font-weight: 500;
+    color: #ACBDCE;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1rem;
+}
+
+.partners__text--date{
+    margin-top: 1.6rem;
+}
+
+.partners__text--status{
+    margin-top: 0.8rem;
+}
+
+@media(max-width: 1200px){
+    .partners__text--money{
+        font-size: 3.5rem;
+    }
+}
+@media(max-width: 768px){
+    .partners__item--img--inner{
+        width: 175px;
+    }
+}
+@media(max-width: 480px){
+    .partners__content{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .partners__item{
+        flex-direction: column;
+    }
+
+    .partners__item--img--inner{
+        width: 100%;
+        height: auto;
+    }
+
+    .partners__item--text--inner{
+        padding: 1.5rem 2rem;
+    }
+
+    .partners__content{
+        margin-top: 2rem;
+    }
+
+    .partners__text--money{
+        font-size: 2.8rem;
+    }
+}

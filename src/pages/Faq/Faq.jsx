@@ -1,8 +1,7 @@
 import React from 'react';
 import $ from 'jquery';
 
-import Header from '../Layout/Header/Header.jsx';
-import Footer from '../Layout/Footer/Footer.jsx';
+import './Faq.css';
 
 const faqData = [
 	{
@@ -47,71 +46,65 @@ const Faq = () => {
 	}, []);
 
 	return(
-		<>
-			<Header />
+		<section className="section__padding faq">
+			<img src="/assets/img/wave.png" alt="Фон" className="faq__img" />
 
-			<section className="faq">
-				<img src="/assets/img/wave.png" alt="Фон" className="faq__img" />
+			<div className="container">
+				<div className="faq__inner">
+					<h2 className="title title__center">
+						<span className="black blue">Вопросы</span> и ответы
+					</h2>
 
-				<div className="container">
-					<div className="faq__inner">
-						<h2 className="title title__center">
-							<span className="black blue">Вопросы</span> и ответы
-						</h2>
-
-						<div className="faq__tabs">
-							<button className="button faq__tab" data-tab="account">
-								Аккаунт
-							</button>
-
-							<button className="button faq__tab active" data-tab="invest">
-								Инвестиции
-							</button>
-
-							<button className="button faq__tab" data-tab="given">
-								Выплата средств
-							</button>
-
-							<button className="button faq__tab" data-tab="program">
-								Партнерская программа
-							</button>
-						</div>
-
-						<div className="faq__content" data-tab="account">
+					<div className="faq__tabs">
+						<button className="button faq__tab" data-tab="account">
 							Аккаунт
-						</div>
+						</button>
 
-						<div className="faq__content active" data-tab="invest">
-							{faqData.map((d, id) => <div key={id} className="faq__item">
-								<div className="faq__item--left">
-									<img src="/assets/img/faq-arrow.svg" alt="Стрелка" className="faq__item--arrow disable" />
-								</div>
+						<button className="button faq__tab active" data-tab="invest">
+							Инвестиции
+						</button>
 
-								<div className="faq__item--content">
-									<p className="faq__item--question">
-										{d.question}
-									</p>
-
-									<p className="faq__item--answer">
-										{d.answer}
-									</p>
-								</div>
-							</div>)}
-						</div>
-
-						<div className="faq__content" data-tab="given">
+						<button className="button faq__tab" data-tab="given">
 							Выплата средств
-						</div>
+						</button>
 
-						<div className="faq__content" data-tab="program">
+						<button className="button faq__tab" data-tab="program">
 							Партнерская программа
-						</div>
+						</button>
+					</div>
+
+					<div className="faq__content" data-tab="account">
+						Аккаунт
+					</div>
+
+					<div className="faq__content active" data-tab="invest">
+						{faqData.map((d, id) => <div key={id} className="faq__item">
+							<div className="faq__item--left">
+								<img src="/assets/img/faq-arrow.svg" alt="Стрелка" className="faq__item--arrow disable" />
+							</div>
+
+							<div className="faq__item--content">
+								<p className="faq__item--question">
+									{d.question}
+								</p>
+
+								<p className="faq__item--answer">
+									{d.answer}
+								</p>
+							</div>
+						</div>)}
+					</div>
+
+					<div className="faq__content" data-tab="given">
+						Выплата средств
+					</div>
+
+					<div className="faq__content" data-tab="program">
+						Партнерская программа
 					</div>
 				</div>
-			</section>
-
-			<Footer />
-		</>
+			</div>
+		</section>
 	)
 }
 

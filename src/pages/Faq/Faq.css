@@ -1,0 +1,135 @@
+/* Faq */
+.faq{
+    position: relative;
+}
+
+.faq__img{
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+    top: 0;
+    right: 0;
+}
+
+.faq__inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.faq__tabs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.faq__content{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 3rem;
+}
+
+.faq__content.active{
+    display: flex;
+}
+
+.faq__item{
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+}
+
+.faq__item:first-child{
+    margin-top: 0;
+}
+
+.faq__tab{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #90a1ae;
+    padding: 1rem 3.8rem;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    margin: 0.5rem;
+}
+
+.faq__tab:hover{
+    color: #24333f;
+    border: 1px solid #006FDE;
+}
+
+.faq__tab.active{
+    border: 1px solid #006FDE;
+    color: #24333f;
+}
+
+.faq__item--left{
+    padding: 1.8rem;
+    background: linear-gradient(90deg, #006FDE 0%, #158AFF 100%);
+    border-radius: 10px 0 0 10px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.faq__item--arrow{
+    transition: .2s linear;
+}
+
+.faq__item--arrow.disable{
+    transform: rotate(180deg);
+}
+
+.faq__item--content{
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 0 10px 10px 0;
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #fff;
+}
+
+.faq__item--question{
+    font-size: 2.5rem;
+    color: #13599f;
+    font-weight: 700;
+}
+
+.faq__item--answer{
+    margin: 3rem 0 0 2rem;
+    font-size: 2rem;
+    color: #24333f;
+    display: none;
+}
+
+@media(max-width: 768px){
+    .faq__item--question{
+        font-size: 2rem;
+    }
+
+    .faq__item--answer{
+        margin: 1.5rem 0 0 0;
+        font-size: 1.6rem;
+    }
+
+    .faq__tab{
+        font-size: 1.6rem;
+        padding: 1rem 2rem;
+    }
+}
+@media(max-width: 480px){
+    .faq__item, .faq__content{
+        margin-top: 1.5rem;
+    }
+
+    .faq__item--question{
+        font-size: 1.8rem;
+    }
+}

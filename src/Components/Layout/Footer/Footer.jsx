@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
+import './Footer.css';
+
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {Pagination} from 'swiper';
 import 'swiper/css';
@@ -11,7 +13,7 @@ const Footer = () => {
 	const pagination = {
 	    clickable: true,
 	    renderBullet: function (index, className) {
-	      return '<span class="slick__dot '+ className +'"></span>';
+	    	return '<span class="slick__dot '+ className +'"></span>';
 	    },
 	};
 
@@ -97,19 +99,19 @@ const Footer = () => {
 									Документы
 								</p>
 
-								<a href="#" className="footer__nav--link">
+								<a href="https://google.com" className="footer__nav--link">
 									Пользовательское соглашение
 								</a>
 
-								<a href="#" className="footer__nav--link">
+								<a href="https://google.com" className="footer__nav--link">
 									Политика конфиденциальности
 								</a>
 
-								<a href="#" className="footer__nav--link">
+								<a href="https://google.com" className="footer__nav--link">
 									Договор оферты
 								</a>
 
-								<a href="#" className="footer__nav--link">
+								<a href="https://google.com" className="footer__nav--link">
 									Регистрация компании
 								</a>
 							</div>
@@ -139,37 +141,37 @@ const Footer = () => {
 
 						<div className="footer__bottom">
 							<div className="footer__social--inner">
-								<a href="#" className="footer__social--link">
+								<a href="https://google.com" className="footer__social--link">
 									<img className="footer__social--icon" alt="Иконка" src="/assets/img/whatsapp.svg" />
 								</a>
 
-								<a href="#" className="footer__social--link">
+								<a href="https://google.com" className="footer__social--link">
 									<img className="footer__social--icon" alt="Иконка" src="/assets/img/telegram.svg" />
 								</a>
 
-								<a href="#" className="footer__social--link">
+								<a href="https://google.com" className="footer__social--link">
 									<img className="footer__social--icon" alt="Иконка" src="/assets/img/youtube.svg" />
 								</a>
 							</div>
 
 							<div className="footer__wrapper">
-								<a href="#" className="footer__link">
+								<a href="https://web.telegram.org" target="_Blanc" className="footer__link">
 									<img src="/assets/img/telegram-blue.svg" alt="Иконка" className="footer__link--icon" />
 
 									Наш телеграмм
 								</a>
 
-								<a href="#" className="footer__link">
+								<Link to="/news" className="footer__link">
 									<img src="/assets/img/telegram-blue.svg" alt="Иконка" className="footer__link--icon" />
 
 									Новости
-								</a>
+								</Link>
 
-								<a href="#" className="footer__link">
+								<Link to="/contact" className="footer__link">
 									<img src="/assets/img/telegram-blue.svg" alt="Иконка" className="footer__link--icon" />
 
 									Контакты
-								</a>
+								</Link>
 							</div>
 						</div>
 

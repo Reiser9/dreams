@@ -1,0 +1,117 @@
+/* Вебинары */
+.vebinars{
+    position: relative;
+}
+
+.vebinars__content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5rem;
+}
+
+.vebinars__item{
+    width: 100%;
+    margin-top: 3rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    border-radius: 10px;
+}
+
+.vebinars__item:first-child{
+    margin-top: 0;
+}
+
+.vebinars__item--img--inner{
+    width: 475px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.vebinars__item--img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.vebinars__item--text--inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.5rem 3rem;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.vebinars__text--status, .vebinars__text--date, .vebinars__item--button--inner{
+    margin-top: 1.5rem;
+}
+
+.vebinars__item--button--inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vebinars__social--inner{
+    display: flex;
+    align-items: center;
+}
+
+.vebinars__item--button{
+    padding: 1rem 4rem;
+    border-radius: 50px;
+    border: 1px solid #006FDE;
+    color: #24333f;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.vebinars__item--button:hover{
+    background: #006FDE;
+    color: #fff;
+}
+
+.text__name{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #13599f;
+}
+
+@media(max-width: 998px){
+    .vebinars__item--img--inner{
+        width: 350px;
+    }
+
+    .vebinars__item--button--inner{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .vebinars__social--inner{
+        margin-top: 1.5rem;
+    }
+}
+@media(max-width: 768px){
+    .vebinars__item{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .vebinars__item--img--inner{
+        width: 100%;
+    }
+
+    .vebinars__content{
+        margin-top: 2rem;
+    }
+}
+@media(max-width: 480px){
+    .vebinars__item--text--inner{
+        padding: 1.5rem 2rem;
+    }
+}

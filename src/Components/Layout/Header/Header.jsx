@@ -2,6 +2,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import $ from 'jquery';
 
+import './Header.css';
+
 const Header = () => {
 	React.useEffect(() => {
 		const close = () => {
@@ -31,45 +33,45 @@ const Header = () => {
 				<img src="/assets/img/close.svg" alt="Закрыть" className="close" />
 
 				<div className="header__nav">
-					<a href="#" className="header__nav--link">
+					<Link to="/about" className="header__nav--link">
 						О компании
-					</a>
+					</Link>
 
-					<a href="#" className="header__nav--link">
+					<Link to="/marketing" className="header__nav--link">
 						Маркетинг
-					</a>
+					</Link>
 
-					<a href="#" className="header__nav--link">
+					<Link to="/faq" className="header__nav--link">
 						Вопросы - ответы
-					</a>
+					</Link>
 
-					<a href="#" className="header__nav--link">
+					<Link to="/start" className="header__nav--link">
 						С чего начать
-					</a>
+					</Link>
 
-					<a href="#" className="header__nav--link">
+					<Link to="/adv" className="header__nav--link">
 						Рекламные материалы
-					</a>
+					</Link>
 				</div>
 
 				<div className="header__social--inner mobile">
-					<a href="#" className="header__social--link">
+					<a href="https://web.telegram.org" target="_Blanc" className="header__social--link">
 						<img src="/assets/img/telegram-blue.svg" alt="Иконка" className="footer__link--icon" />
 
 						Наш телеграмм
 					</a>
 
-					<a href="#" className="header__social--link">
+					<Link to="/news" className="header__social--link">
 						<img src="/assets/img/telegram-blue.svg" alt="Иконка" className="footer__link--icon" />
 
 						Новости
-					</a>
+					</Link>
 
-					<a href="#" className="header__social--link">
+					<Link to="/contact" className="header__social--link">
 						<img src="/assets/img/telegram-blue.svg" alt="Иконка" className="footer__link--icon" />
 
 						Контакты
-					</a>
+					</Link>
 
 					<a href="mailto:info@mail.com" className="header__social--link">
 						<img src="/assets/img/mail.svg" alt="Иконка" className="footer__link--icon" />
@@ -93,23 +95,23 @@ const Header = () => {
 								</Link>
 
 								<div className="header__social--inner">
-									<a href="#" className="header__social--link">
+									<a href="https://web.telegram.org" target="_Blanc" className="header__social--link">
 										<img src="/assets/img/telegram-blue.svg" alt="Иконка" className="footer__link--icon" />
 
 										Наш телеграмм
 									</a>
 
-									<a href="#" className="header__social--link">
+									<Link to="/news" className="header__social--link">
 										<img src="/assets/img/telegram-blue.svg" alt="Иконка" className="footer__link--icon" />
 
 										Новости
-									</a>
+									</Link>
 
-									<a href="#" className="header__social--link">
+									<Link to="/contact" className="header__social--link">
 										<img src="/assets/img/telegram-blue.svg" alt="Иконка" className="footer__link--icon" />
 
 										Контакты
-									</a>
+									</Link>
 
 									<a href="mailto:info@mail.com" className="header__social--link">
 										<img src="/assets/img/mail.svg" alt="Иконка" className="footer__link--icon" />
@@ -133,25 +135,25 @@ const Header = () => {
 
 						<div className="header__bottom">
 							<div className="header__nav">
-								<a href="#" className="header__nav--link">
+								<Link to="/about" className="header__nav--link">
 									О компании
-								</a>
+								</Link>
 
-								<a href="#" className="header__nav--link">
+								<Link to="/marketing" className="header__nav--link">
 									Маркетинг
-								</a>
+								</Link>
 
-								<a href="#" className="header__nav--link">
+								<Link to="/faq" className="header__nav--link">
 									Вопросы - ответы
-								</a>
+								</Link>
 
-								<a href="#" className="header__nav--link">
+								<Link to="/start" className="header__nav--link">
 									С чего начать
-								</a>
+								</Link>
 
-								<a href="#" className="header__nav--link">
+								<Link to="/adv" className="header__nav--link">
 									Рекламные материалы
-								</a>
+								</Link>
 							</div>
 
 							<div className="header__auth">
