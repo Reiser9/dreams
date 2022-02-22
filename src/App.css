@@ -59,7 +59,7 @@ input::-webkit-inner-spin-button{
 }
 
 .input::placeholder{
-
+    color: #acbdce;
 }
 
 .input:focus::placeholder{
@@ -142,16 +142,89 @@ input::-webkit-inner-spin-button{
     color: #24333f;
 }
 
-/* Платежные системы */
-.payment{
+/* Авторизация */
+.auth{
     position: relative;
 }
 
-.payment__inner{
+.auth__inner{
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+}
+
+.auth__content{
+    width: 100%;
+    max-width: 730px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.auth__input--inner{
+    width: 47%;
+    margin-top: 3.5rem;
+}
+
+.auth__input--inner:first-child, .auth__input--inner:nth-child(2){
+    margin-top: 0;
+}
+
+.auth__input{
+    width: 100%;
+    font-size: 2rem;
+    color: #668faf;
+    padding-bottom: .7rem;
+    border-bottom: 2px solid #ACBDCE;
+}
+
+.auth__input:focus{
+    border-bottom: 2px solid #007cee;
+}
+
+.auth__checkbox{
+    display: none;
+}
+
+.auth__label{
+    position: relative;
+    cursor: pointer;
+    padding-left: 3.5rem;
+    font-size: 2rem;
+    color: #668faf;
+}
+
+.auth__label:before, .auth__label:after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+.auth__label:before{
+    width: 24px;
+    height: 24px;
+    box-shadow: 2px 2px 5px #D7D7D7, -2px -2px 5px #FFFFFF, inset 2px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    top: 0;
+}
+
+.auth__label:after{
+    width: 16px;
+    height: 14px;
+    background: url("assets/img/check.svg") center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    opacity: 0;
+    transition: .2s linear;
+}
+
+.auth__checkbox:checked + .auth__label:after{
+    opacity: 1;
 }
 
 /* Адаптив */
@@ -177,6 +250,18 @@ input::-webkit-inner-spin-button{
     .section__padding{
         padding: 3rem 0;
     }
+
+    .medium__text{
+        font-size: 1.8rem;
+    }
+
+    .auth__input--inner{
+        width: 100%;
+    }
+
+    .auth__input--inner:nth-child(2){
+        margin-top: 3.5rem;
+    }
 }
 @media(max-width: 480px){
     .container{
@@ -189,5 +274,9 @@ input::-webkit-inner-spin-button{
 
     .text__name{
         font-size: 2rem;
+    }
+
+    .auth__input, .auth__label{
+        font-size: 1.8rem;
     }
 }

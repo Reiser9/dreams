@@ -11,6 +11,7 @@ import Partners from './pages/Partners/Partners.jsx';
 import Vebinars from './pages/Vebinars/Vebinars.jsx';
 import Adv from './pages/Adv/Adv.jsx';
 import Payment from './pages/Payment/Payment.jsx';
+import Register from './pages/Register/Register.jsx';
 
 const App = () => {
     return(
@@ -22,6 +23,7 @@ const App = () => {
                 <Route path="vebinars" element={<Vebinars />} />
                 <Route path="adv" element={<Adv />} />
                 <Route path="payment" element={<Payment />} />
+                <Route path="register" element={<Register />} />
                 <Route path="*" element={<Main />} />
             </Route>
         </Routes>
