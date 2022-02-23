@@ -122,7 +122,9 @@ const Header = () => {
 							</div>
 
 							<div className="header__wrapper">
-								<img src="/assets/img/cabinet.svg" alt="Кабинет" className="cabinet" />
+								<Link to="/register">
+									<img src="/assets/img/cabinet.svg" alt="Кабинет" className="cabinet" />
+								</Link>
 
 								<div className="header__lang--inner">
 									<img src="/assets/img/de.svg" alt="Германия" className="header__lang--item" />
@@ -157,13 +159,13 @@ const Header = () => {
 							</div>
 
 							<div className="header__auth">
-								<button className="button header__auth--button">
+								<Link to="/enter" className="header__auth--button">
 									Войти
-								</button>
+								</Link>
 
-								<button className="button header__auth--button">
+								<Link to="/register" className="header__auth--button">
 									Регистрация
-								</button>
+								</Link>
 							</div>
 						</div>
 					</div>

@@ -76,12 +76,6 @@
     color: #fff;
 }
 
-.text__name{
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #13599f;
-}
-
 @media(max-width: 998px){
     .vebinars__item--img--inner{
         width: 350px;

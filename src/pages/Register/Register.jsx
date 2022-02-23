@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './Register.css';
-
 const Register = () => {
 	return(
 		<section className="section__padding auth">
@@ -50,6 +48,10 @@ const Register = () => {
 							<input placeholder="Спонсор" className="input auth__input" />
 						</div>
 					</div>
+
+					<button className="button default__button auth__button">
+						Зарегистрироваться
+					</button>
 				</div>
 			</div>
 		</section>
