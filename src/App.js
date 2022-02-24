@@ -16,6 +16,8 @@ import Enter from './pages/Enter/Enter.jsx';
 import Recovery from './pages/Recovery/Recovery.jsx';
 import News from './pages/News/News.jsx';
 import Owners from './pages/Owners/Owners.jsx';
+import Smi from './pages/Smi/Smi.jsx';
+import Report from './pages/Report/Report.jsx';
 
 const App = () => {
     return(
@@ -32,6 +34,8 @@ const App = () => {
                 <Route path="recovery" element={<Recovery />} />
                 <Route path="news" element={<News />} />
                 <Route path="owners" element={<Owners />} />
+                <Route path="smi" element={<Smi />} />
+                <Route path="report" element={<Report />} />
                 <Route path="*" element={<Main />} />
             </Route>
         </Routes>
