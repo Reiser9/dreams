@@ -3,12 +3,17 @@
     position: relative;
 }
 
-.faq__img{
+.faq__img, .contact__img{
     position: absolute;
     z-index: -1;
     pointer-events: none;
     top: 0;
     right: 0;
+}
+
+.contact__img{
+    top: auto;
+    bottom: 0;
 }
 
 .faq__inner{

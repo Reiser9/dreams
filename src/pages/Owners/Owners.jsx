@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Owners.css';
+
 import OwnerItem from './OwnerItem/OwnerItem.jsx';
 
 const ownerData = [

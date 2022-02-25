@@ -1,0 +1,245 @@
+/* Карьера */
+.career{
+    position: relative;
+}
+
+.career__inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.career__text{
+    margin-top: 3.5rem;
+}
+
+.career__button, .career__title{
+    margin-top: 5rem;
+}
+
+.career__wrapper{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3rem;
+}
+
+.career__img--man{
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+}
+
+.career__img{
+    max-width: 100%;
+}
+
+.career__content{
+    width: 100%;
+    margin-top: 6rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.career__item:first-child{
+    padding: 5rem 0;
+}
+
+.career__item, .career__item--small{
+    width: 100%;
+    max-width: 540px;
+    padding-top: 5rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../../assets/img/career-img1.png") center no-repeat;
+    background-size: cover;
+}
+
+.career__item--small{
+    background: url("../../assets/img/career-img2.png") center no-repeat;
+    background-size: cover;
+    padding: 4rem 6.5rem 6rem 6.5rem;
+    box-shadow: none;
+    margin-top: 4rem;
+}
+
+.career__item--title{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #24333f;
+}
+
+.career__item--title.margin{
+    margin-top: 3rem;
+}
+
+.career__item--box{
+    margin-top: 6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.career__item--text{
+    width: 50%;
+    padding: 0rem 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #90a1ae;
+}
+
+.career__item--val{
+    width: 50%;
+    padding: 0rem 1rem;
+    text-align: right;
+    font-size: 7rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #0B7DF0;
+    font-weight: 500;
+    text-shadow: 0 0 20px #0A7CEE;
+}
+
+.career__item--val.small{
+    font-size: 3.5rem;
+}
+
+.career__item--suptitle{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.career__item--item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    margin-top: 4rem;
+    border-bottom: 1px solid #ACBDCE;
+}
+
+.career__item--item.small{
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+}
+
+.career__item--item:last-child{
+    border-bottom: 0;
+}
+
+.career__item--padding{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem 6.5rem;
+}
+
+.career__item--subtext{
+    margin-top: 2rem;
+}
+
+@media(max-width: 1200px){
+    .career__item, .career__item--small{
+        max-width: 470px;
+    }
+}
+@media(max-width: 998px){
+    .career__img--man{
+        width: 300px;
+    }
+
+    .career__item, .career__item--small{
+        max-width: 360px;
+    }
+
+    .career__item--padding{
+        padding: 0rem 2rem;
+    }
+
+    .career__item--small{
+        padding: 4rem 2rem 6rem 2rem;
+    }
+}
+@media(max-width: 768px){
+    .career__text{
+        margin-top: 2rem;
+    }
+
+    .career__content{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .career__item, .career__item--small{
+        max-width: 100%;
+    }
+
+    .career__item{
+        margin-top: 3rem;
+    }
+
+    .career__item:first-child{
+        margin-top: 0;
+    }
+
+    .career__button, .career__content{
+        margin-top: 3rem;
+    }
+}
+@media(max-width: 480px){
+    .career__img--man{
+        width: 200px;
+        top: -40px;
+    }
+
+    .career__item--suptitle{
+        font-size: 2rem;
+    }
+
+    .career__item:first-child{
+        padding: 3rem 0;
+    }
+
+    .career__item--padding{
+        padding: 0rem 1rem;
+    }
+
+    .career__item--item.small, .career__item--item{
+        padding: 0.7rem 1rem;
+    }
+
+    .career__item--item{
+        margin-top: 1rem;
+    }
+
+    .career__item--title.margin{
+        margin-top: 2rem;
+    }
+
+    .career__item{
+        padding-top: 3rem;
+    }
+
+    .career__item--small{
+        padding: 3rem 2rem;
+    }
+
+    .career__item--val{
+        font-size: 5rem;
+    }
+
+    .career__item--box{
+        margin-top: 3rem;
+    }
+}

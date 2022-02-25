@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Smi.css';
+
 const Smi = () => {
 	return(
 		<section className="section__padding smi">

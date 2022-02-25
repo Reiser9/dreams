@@ -18,6 +18,9 @@ import News from './pages/News/News.jsx';
 import Owners from './pages/Owners/Owners.jsx';
 import Smi from './pages/Smi/Smi.jsx';
 import Report from './pages/Report/Report.jsx';
+import Contact from './pages/Contact/Contact.jsx';
+import Mission from './pages/Mission/Mission.jsx';
+import Career from './pages/Career/Career.jsx';
 
 const App = () => {
     return(
@@ -36,6 +39,9 @@ const App = () => {
                 <Route path="owners" element={<Owners />} />
                 <Route path="smi" element={<Smi />} />
                 <Route path="report" element={<Report />} />
+                <Route path="contact" element={<Contact />} />
+                <Route path="mission" element={<Mission />} />
+                <Route path="career" element={<Career />} />
                 <Route path="*" element={<Main />} />
             </Route>
         </Routes>

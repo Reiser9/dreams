@@ -1,0 +1,137 @@
+/* Сми */
+.smi__inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smi__content{
+    margin-top: 7rem;
+    width: 100%;
+    display: grid;
+    grid-gap: 10px 30px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.smi__button{
+    margin-top: 4rem;
+}
+
+.smi__wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 6rem;
+}
+
+.smi__text{
+    width: 100%;
+    color: #24333f;
+    margin-top: 3rem;
+}
+
+.smi__text:first-child{
+    margin-top: 0;
+}
+
+.smi__item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.smi__item--img{
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.15));
+}
+
+.smi__item--text--inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    position: relative;
+    top: -20px;
+    background: #fff;
+}
+
+.smi__item--text--title{
+    font-weight: 700;
+    color: #13599f;
+}
+
+.smi__item--text--text{
+    font-size: 1.4rem;
+    color: #24333f;
+    margin-top: 1.2rem;
+}
+
+.smi__item--date{
+    margin-top: 1.2rem;
+}
+
+.smi__box--item{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.smi__box--item:first-child{
+    margin-top: 0;
+}
+
+.smi__box--item--icon{
+    width: 36px;
+    height: auto;
+    margin-right: 1.5rem;
+}
+
+.smi__box--item--text{
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 5rem;
+}
+
+.smi__box--item--button{
+    padding: 0.7rem 5rem;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.smi__box--item--button:hover{
+    background: #fff;
+    color: #158AFF;
+}
+
+@media(max-width: 768px){
+    .smi__button{
+        margin-top: 2rem;
+    }
+
+    .smi__content{
+        margin-top: 4rem;
+    }
+}
+@media(max-width: 480px){
+    .smi__item--text--inner{
+        padding: 1.5rem;
+    }
+
+    .smi__box--item--button{
+        padding: 0.7rem 3rem;
+    }
+
+    .smi__box--item--text{
+        margin-right: 3rem;
+    }
+}

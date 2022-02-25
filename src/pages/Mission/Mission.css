@@ -1,0 +1,97 @@
+/* Миссия */
+.mission{
+    position: relative;
+}
+
+.mission__point--inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2.5rem;
+}
+
+.mission__point{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.mission__point:first-child{
+    margin-top: 0;
+}
+
+.mission__point--check{
+    margin-right: 1.4rem;
+}
+
+.value{
+    width: 100%;
+    background: url("../../assets/img/mission-fon.jpg") center no-repeat;
+    background-size: cover;
+    padding: 9rem 0 0 0;
+    margin-top: 2rem;
+}
+
+.value__inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.value__content{
+    margin-top: 5rem;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.value__title{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.value__button{
+    position: relative;
+    top: 27px;
+    margin-top: 1rem;
+}
+
+.value__item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.value__item--icon{
+
+}
+
+.value__item--title{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+}
+
+.value__item--text{
+    color: #fff;
+    margin-top: 2rem;
+}
+
+@media(max-width: 768px){
+    .value{
+        padding: 4rem 0rem 0rem 0rem;
+    }
+
+    .value__content{
+        margin-top: 3rem;
+    }
+
+    .value__title{
+        font-size: 2.2rem;
+    }
+}

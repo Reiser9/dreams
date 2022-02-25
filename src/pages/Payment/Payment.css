@@ -124,6 +124,10 @@
     max-width: 80%;
 }
 
+.payment__text{
+    margin-top: 2rem;
+}
+
 @media(max-width: 768px){
     .payment__content{
         flex-direction: column;
