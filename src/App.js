@@ -21,6 +21,9 @@ import Report from './pages/Report/Report.jsx';
 import Contact from './pages/Contact/Contact.jsx';
 import Mission from './pages/Mission/Mission.jsx';
 import Career from './pages/Career/Career.jsx';
+import Start from './pages/Start/Start.jsx';
+import About from './pages/About/About.jsx';
+import Marketing from './pages/Marketing/Marketing.jsx';
 
 const App = () => {
     return(
@@ -42,6 +45,9 @@ const App = () => {
                 <Route path="contact" element={<Contact />} />
                 <Route path="mission" element={<Mission />} />
                 <Route path="career" element={<Career />} />
+                <Route path="start" element={<Start />} />
+                <Route path="about" element={<About />} />
+                <Route path="marketing" element={<Marketing />} />
                 <Route path="*" element={<Main />} />
             </Route>
         </Routes>

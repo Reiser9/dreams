@@ -1,0 +1,12 @@
+@media(max-width: 998px){
+	.build__box{
+	    padding: 15rem 4rem 4rem 4rem;
+	    margin-top: 16rem;
+	}
+}
+@media(max-width: 480px){
+	.build__box{
+	    padding: 12rem 2rem 2rem 2rem;
+	    margin-top: 13rem;
+	}
+}
