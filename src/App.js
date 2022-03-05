@@ -1,9 +1,10 @@
 import React from 'react';
-import {Routes, Route} from 'react-router-dom';
+import {Routes, Route, Navigate} from 'react-router-dom';
 
 import './App.css';
 
 import Layout from './Components/Layout/Layout.jsx';
+import LayoutMain from './Components/Layout/LayoutMain.jsx';
 
 import Main from './pages/Main/Main.jsx';
 import Faq from './pages/Faq/Faq.jsx';
@@ -29,7 +30,6 @@ const App = () => {
     return(
         <Routes>
             <Route path="/" element={<Layout />}>
-                <Route index element={<Main />} />
                 <Route path="faq" element={<Faq />} />
                 <Route path="partners" element={<Partners />} />
                 <Route path="vebinars" element={<Vebinars />} />
@@ -48,7 +48,10 @@ const App = () => {
                 <Route path="start" element={<Start />} />
                 <Route path="about" element={<About />} />
                 <Route path="marketing" element={<Marketing />} />
-                <Route path="*" element={<Main />} />
+                <Route path="*" element={<Navigate to="/" />} />
+            </Route>
+            <Route path="/" element={<LayoutMain />}>
+                <Route index element={<Main />} />
             </Route>
         </Routes>
     )

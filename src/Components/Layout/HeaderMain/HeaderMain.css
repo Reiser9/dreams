@@ -1,0 +1,173 @@
+.header__main{
+	border-bottom: 0;
+	padding: 2rem 0rem 36rem 0;
+}
+
+.header__img--inner{
+	background: url("../../../assets/img/main-header-img.svg") center no-repeat;
+	background-size: cover;
+}
+
+.main__inner{
+	width: 100%;
+	margin-top: 7rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+}
+
+.main__title{
+	font-size: 6rem;
+	font-weight: 900;
+	color: #13599f;
+}
+
+.main__subtitle{
+	font-weight: 900;
+	color: #90a1ae;
+	font-size: 4rem;
+	margin-top: 1rem;
+}
+
+.main__text{
+	font-size: 3rem;
+	color: #24333f;
+	margin-top: 8rem;
+}
+
+.main__button{
+	margin-top: 8rem;
+}
+
+.main__circle, .main__dots, .main__air{
+	pointer-events: none;
+	z-index: -1;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.main__dots{
+	bottom: auto;
+	top: 200px;
+	left: 300px;
+}
+
+.main__air{
+	left: auto;
+	right: 0;
+	bottom: auto;
+	top: 50%;
+	transform: translateY(-45%);
+	width: 75vw;
+}
+
+@media(max-width: 1200px){
+	.header__main{
+		padding: 2rem 0rem 15rem 0;
+	}
+
+	.main__air{
+		width: 70vw;
+	}
+}
+@media(max-width: 998px){
+	.main__title{
+		font-size: 5rem;
+	}
+
+	.main__circle{
+		max-width: 70%;
+	}
+
+	.main__dots{
+		max-width: 40%;
+	}
+
+	.main__subtitle{
+		font-size: 3rem;
+	}
+
+	.main__text{
+		margin-top: 2rem;
+		font-size: 2.5rem;
+	}
+
+	.main__button{
+		margin-top: 3rem;
+	}
+
+	.main__inner{
+		margin-top: 35rem;
+	}
+
+	.header__main{
+		padding: 2rem 0rem 7rem 0;
+	}
+
+	.main__air{
+		transform: translateY(0);
+		top: 230px;
+		width: 700px;
+		max-width: 100%;
+	}
+}
+@media(max-width: 768px){
+	.main__air{
+		top: 130px;
+	}
+
+	.main__inner{
+		max-width: 293px;
+	}
+
+	.main__title{
+		font-size: 3.7rem;
+	}
+
+	.main__subtitle{
+		font-size: 2.5rem;
+	}
+
+	.main__text{
+		font-size: 1.8rem;
+	}
+
+	.header__img--inner{
+		width: calc(65vw - 150px);
+	}
+
+	.main__dots{
+		left: 250px;
+	}
+}
+@media(max-width: 480px){
+	.main__dots{
+		display: none;
+	}
+
+	.header__img--inner{
+		width: 100%;
+	}
+
+	.main__air{
+		top: 100px;
+	}
+
+	.main__inner{
+		margin-top: 20rem;
+	}
+
+	.main__title, .main__subtitle, .main__text{
+		color: #fff;
+	}
+
+	.header__main{
+		padding: 2rem 0;
+	}
+
+	.main__subtitle{
+		font-weight: 600;
+	}
+}
