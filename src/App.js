@@ -5,6 +5,7 @@ import './App.css';
 
 import Layout from './Components/Layout/Layout.jsx';
 import LayoutMain from './Components/Layout/LayoutMain.jsx';
+import LayoutAdmin from './Components/Layout/LayoutAdmin.jsx';
 
 import Main from './pages/Main/Main.jsx';
 import Faq from './pages/Faq/Faq.jsx';
@@ -25,6 +26,8 @@ import Career from './pages/Career/Career.jsx';
 import Start from './pages/Start/Start.jsx';
 import About from './pages/About/About.jsx';
 import Marketing from './pages/Marketing/Marketing.jsx';
+
+import Admin from './pages/Admin/Admin.jsx';
 
 const App = () => {
     return(
@@ -52,6 +55,9 @@ const App = () => {
             </Route>
             <Route path="/" element={<LayoutMain />}>
                 <Route index element={<Main />} />
+            </Route>
+            <Route path="/admin/" element={<LayoutAdmin />}>
+                <Route index element={<Admin />} />
             </Route>
         </Routes>
     )
