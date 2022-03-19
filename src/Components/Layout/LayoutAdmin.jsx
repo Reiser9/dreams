@@ -1,12 +1,21 @@
 import React from 'react';
-import {Outlet} from 'react-router-dom';
+import {Outlet, Link} from 'react-router-dom';
 
-
+import HeaderAdmin from './HeaderAdmin/HeaderAdmin.jsx';
+import Sidebar from './Sidebar/Sidebar.jsx';
 
 const LayoutAdmin = () => {
 	return(
 		<div className="admin__body">
-			<Outlet />
+			<HeaderAdmin />
+
+			<div className="admin__container">
+				<Sidebar />
+
+				<div className="admin__content">
+					<Outlet />
+				</div>
+			</div>
 		</div>
 	)
 }

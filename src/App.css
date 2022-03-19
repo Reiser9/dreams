@@ -40,6 +40,7 @@ body{
 a, button, input{
     transition: .2s linear;
     font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
 }
 
 a{
@@ -1990,11 +1991,15 @@ input::-webkit-inner-spin-button{
     height: auto;
 }
 
-.admin__news--item{
+.admin__news--item, .presents__item{
     margin-top: 2.5rem;
     background: #FFFFFF;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+}
+
+.presents__item{
+    margin: 0;
 }
 
 .admin__news--item:first-child{
@@ -2172,6 +2177,49 @@ input::-webkit-inner-spin-button{
 
 .admin__last--date{
     width: 16%;
+}
+
+/* Презентация */
+.presents__content{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+.presents__button{
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    background: #5E89CC;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Розыгрыши */
+.draw__content{
+    margin-top: 4rem;
+    max-width: 920px;
+}
+
+.draw__title{
+    color: #222;
+    font-size: 2.4rem;
+    margin-top: 4rem;
+}
+
+.draw__text{
+    color: #5b5b5b;
+    margin-top: 3rem;
+}
+
+.draw__button{
+    padding: 1.7rem 7rem;
+    color: #fff;
+    background: #61D64A;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 4rem;
 }
 
 /* Адаптив */
@@ -2662,6 +2710,15 @@ input::-webkit-inner-spin-button{
     .admin__last--date{
         width: 20%;
     }
+
+    .draw__title{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .draw__text, .draw__content{
+        margin-top: 2rem;
+    }
 }
 @media(max-width: 500px){
     .profile__content--info--inner{
@@ -2710,6 +2767,14 @@ input::-webkit-inner-spin-button{
 
     .admin__title--inner{
         font-size: 1.8rem;
+    }
+
+    .presents__content{
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+
+    .draw__button{
+        margin-top: 2rem;
     }
 }
 @media(max-width: 480px){
@@ -2959,5 +3024,13 @@ input::-webkit-inner-spin-button{
 
     .admin__last--program{
         margin-top: 0;
+    }
+
+    .draw__title{
+        font-size: 1.6rem;
+    }
+
+    .draw__text{
+        font-size: 1.4rem;
     }
 }

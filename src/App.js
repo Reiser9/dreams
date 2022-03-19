@@ -28,6 +28,8 @@ import About from './pages/About/About.jsx';
 import Marketing from './pages/Marketing/Marketing.jsx';
 
 import Admin from './pages/Admin/Admin.jsx';
+import Presents from './pages/Presents/Presents.jsx';
+import Draw from './pages/Draw/Draw.jsx';
 
 const App = () => {
     return(
@@ -58,6 +60,8 @@ const App = () => {
             </Route>
             <Route path="/admin/" element={<LayoutAdmin />}>
                 <Route index element={<Admin />} />
+                <Route path="presents" element={<Presents />} />
+                <Route path="draw" element={<Draw />} />
             </Route>
         </Routes>
     )
