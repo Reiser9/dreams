@@ -30,6 +30,11 @@ import Marketing from './pages/Marketing/Marketing.jsx';
 import Admin from './pages/Admin/Admin.jsx';
 import Presents from './pages/Presents/Presents.jsx';
 import Draw from './pages/Draw/Draw.jsx';
+import InputMoney from './pages/InputMoney/InputMoney.jsx';
+import OutputMoney from './pages/OutputMoney/OutputMoney.jsx';
+import Operation from './pages/Operation/Operation.jsx';
+import Tickets from './pages/Tickets/Tickets.jsx';
+import AdminNews from './pages/AdminNews/AdminNews.jsx';
 
 const App = () => {
     return(
@@ -62,6 +67,11 @@ const App = () => {
                 <Route index element={<Admin />} />
                 <Route path="presents" element={<Presents />} />
                 <Route path="draw" element={<Draw />} />
+                <Route path="inputmoney" element={<InputMoney />} />
+                <Route path="outputmoney" element={<OutputMoney />} />
+                <Route path="operation" element={<Operation />} />
+                <Route path="tickets" element={<Tickets />} />
+                <Route path="news" element={<AdminNews />} />
             </Route>
         </Routes>
     )

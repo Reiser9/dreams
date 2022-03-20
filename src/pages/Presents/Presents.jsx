@@ -83,6 +83,96 @@ const Presents = () => {
 								</button>
 							</div>
 						</div>
+
+						<div className="presents__item flex">
+							<img className="admin__news--item--img" src="/assets/img/new-img.png" alt="Картинка новости" />
+
+							<div className="admin__news--text--inner flex w100">
+								<p className="admin__news--text--title">
+									Презентация на португальском языке
+								</p>
+
+								<p className="admin__news--text--text">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+								</p>
+
+								<button className="button presents__button">
+									Открыть
+								</button>
+							</div>
+						</div>
+
+						<div className="presents__item flex">
+							<img className="admin__news--item--img" src="/assets/img/new-img.png" alt="Картинка новости" />
+
+							<div className="admin__news--text--inner flex w100">
+								<p className="admin__news--text--title">
+									Презентация на португальском языке
+								</p>
+
+								<p className="admin__news--text--text">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+								</p>
+
+								<button className="button presents__button">
+									Открыть
+								</button>
+							</div>
+						</div>
+
+						<div className="presents__item flex">
+							<img className="admin__news--item--img" src="/assets/img/new-img.png" alt="Картинка новости" />
+
+							<div className="admin__news--text--inner flex w100">
+								<p className="admin__news--text--title">
+									Презентация на португальском языке
+								</p>
+
+								<p className="admin__news--text--text">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+								</p>
+
+								<button className="button presents__button">
+									Открыть
+								</button>
+							</div>
+						</div>
+
+						<div className="presents__item flex">
+							<img className="admin__news--item--img" src="/assets/img/new-img.png" alt="Картинка новости" />
+
+							<div className="admin__news--text--inner flex w100">
+								<p className="admin__news--text--title">
+									Презентация на португальском языке
+								</p>
+
+								<p className="admin__news--text--text">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+								</p>
+
+								<button className="button presents__button">
+									Открыть
+								</button>
+							</div>
+						</div>
+
+						<div className="presents__item flex">
+							<img className="admin__news--item--img" src="/assets/img/new-img.png" alt="Картинка новости" />
+
+							<div className="admin__news--text--inner flex w100">
+								<p className="admin__news--text--title">
+									Презентация на португальском языке
+								</p>
+
+								<p className="admin__news--text--text">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+								</p>
+
+								<button className="button presents__button">
+									Открыть
+								</button>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
