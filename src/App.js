@@ -35,6 +35,12 @@ import OutputMoney from './pages/OutputMoney/OutputMoney.jsx';
 import Operation from './pages/Operation/Operation.jsx';
 import Tickets from './pages/Tickets/Tickets.jsx';
 import AdminNews from './pages/AdminNews/AdminNews.jsx';
+import Struct from './pages/Struct/Struct.jsx';
+import Notify from './pages/Notify/Notify.jsx';
+import Balance from './pages/Balance/Balance.jsx';
+import Transaction from './pages/Transaction/Transaction.jsx';
+import Retransaction from './pages/Retransaction/Retransaction.jsx';
+import Travel from './pages/Travel/Travel.jsx';
 
 const App = () => {
     return(
@@ -72,6 +78,12 @@ const App = () => {
                 <Route path="operation" element={<Operation />} />
                 <Route path="tickets" element={<Tickets />} />
                 <Route path="news" element={<AdminNews />} />
+                <Route path="struct" element={<Struct />} />
+                <Route path="notify" element={<Notify />} />
+                <Route path="balance" element={<Balance />} />
+                <Route path="transaction" element={<Transaction />} />
+                <Route path="retransaction" element={<Retransaction />} />
+                <Route path="travel" element={<Travel />} />
             </Route>
         </Routes>
     )

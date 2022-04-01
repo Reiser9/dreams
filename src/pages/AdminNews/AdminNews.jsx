@@ -13,7 +13,9 @@ const AdminNews = () => {
 
 					<div className="presents__content content__margin flex w100">
 						<div className="presents__item flex">
-							<img className="admin__news--item--img" src="/assets/img/anews1.png" alt="Картинка новости" />
+							<div className="anews__img--inner">
+								<img className="anews__img" src="/assets/img/anews1.png" alt="Картинка новости" />
+							</div>
 
 							<div className="admin__news--text--inner flex w100">
 								<p className="admin__news--text--title">
@@ -33,7 +35,9 @@ const AdminNews = () => {
 						</div>
 
 						<div className="presents__item flex">
-							<img className="admin__news--item--img" src="/assets/img/anews2.png" alt="Картинка новости" />
+							<div className="anews__img--inner">
+								<img className="anews__img" src="/assets/img/anews2.png" alt="Картинка новости" />
+							</div>
 
 							<div className="admin__news--text--inner flex w100">
 								<p className="admin__news--text--title">
@@ -53,7 +57,9 @@ const AdminNews = () => {
 						</div>
 
 						<div className="presents__item flex">
-							<img className="admin__news--item--img" src="/assets/img/anews3.png" alt="Картинка новости" />
+							<div className="anews__img--inner">
+								<img className="anews__img" src="/assets/img/anews3.png" alt="Картинка новости" />
+							</div>
 
 							<div className="admin__news--text--inner flex w100">
 								<p className="admin__news--text--title">
@@ -73,7 +79,9 @@ const AdminNews = () => {
 						</div>
 
 						<div className="presents__item flex">
-							<img className="admin__news--item--img" src="/assets/img/anews4.png" alt="Картинка новости" />
+							<div className="anews__img--inner">
+								<img className="anews__img" src="/assets/img/anews4.png" alt="Картинка новости" />
+							</div>
 
 							<div className="admin__news--text--inner flex w100">
 								<p className="admin__news--text--title">
@@ -93,7 +101,9 @@ const AdminNews = () => {
 						</div>
 
 						<div className="presents__item flex">
-							<img className="admin__news--item--img" src="/assets/img/anews1.png" alt="Картинка новости" />
+							<div className="anews__img--inner">
+								<img className="anews__img" src="/assets/img/anews1.png" alt="Картинка новости" />
+							</div>
 
 							<div className="admin__news--text--inner flex w100">
 								<p className="admin__news--text--title">
@@ -113,7 +123,9 @@ const AdminNews = () => {
 						</div>
 
 						<div className="presents__item flex">
-							<img className="admin__news--item--img" src="/assets/img/anews2.png" alt="Картинка новости" />
+							<div className="anews__img--inner">
+								<img className="anews__img" src="/assets/img/anews2.png" alt="Картинка новости" />
+							</div>
 
 							<div className="admin__news--text--inner flex w100">
 								<p className="admin__news--text--title">
@@ -133,7 +145,9 @@ const AdminNews = () => {
 						</div>
 
 						<div className="presents__item flex">
-							<img className="admin__news--item--img" src="/assets/img/anews3.png" alt="Картинка новости" />
+							<div className="anews__img--inner">
+								<img className="anews__img" src="/assets/img/anews3.png" alt="Картинка новости" />
+							</div>
 
 							<div className="admin__news--text--inner flex w100">
 								<p className="admin__news--text--title">
@@ -153,7 +167,9 @@ const AdminNews = () => {
 						</div>
 
 						<div className="presents__item flex">
-							<img className="admin__news--item--img" src="/assets/img/anews4.png" alt="Картинка новости" />
+							<div className="anews__img--inner">
+								<img className="anews__img" src="/assets/img/anews4.png" alt="Картинка новости" />
+							</div>
 
 							<div className="admin__news--text--inner flex w100">
 								<p className="admin__news--text--title">
@@ -173,7 +189,9 @@ const AdminNews = () => {
 						</div>
 
 						<div className="presents__item flex">
-							<img className="admin__news--item--img" src="/assets/img/anews1.png" alt="Картинка новости" />
+							<div className="anews__img--inner">
+								<img className="anews__img" src="/assets/img/anews1.png" alt="Картинка новости" />
+							</div>
 
 							<div className="admin__news--text--inner flex w100">
 								<p className="admin__news--text--title">
@@ -193,7 +211,9 @@ const AdminNews = () => {
 						</div>
 
 						<div className="presents__item flex">
-							<img className="admin__news--item--img" src="/assets/img/anews2.png" alt="Картинка новости" />
+							<div className="anews__img--inner">
+								<img className="anews__img" src="/assets/img/anews2.png" alt="Картинка новости" />
+							</div>
 
 							<div className="admin__news--text--inner flex w100">
 								<p className="admin__news--text--title">
@@ -213,7 +233,9 @@ const AdminNews = () => {
 						</div>
 
 						<div className="presents__item flex">
-							<img className="admin__news--item--img" src="/assets/img/anews3.png" alt="Картинка новости" />
+							<div className="anews__img--inner">
+								<img className="anews__img" src="/assets/img/anews3.png" alt="Картинка новости" />
+							</div>
 
 							<div className="admin__news--text--inner flex w100">
 								<p className="admin__news--text--title">
@@ -233,7 +255,9 @@ const AdminNews = () => {
 						</div>
 
 						<div className="presents__item flex">
-							<img className="admin__news--item--img" src="/assets/img/anews4.png" alt="Картинка новости" />
+							<div className="anews__img--inner">
+								<img className="anews__img" src="/assets/img/anews4.png" alt="Картинка новости" />
+							</div>
 
 							<div className="admin__news--text--inner flex w100">
 								<p className="admin__news--text--title">
