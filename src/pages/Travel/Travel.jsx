@@ -11,8 +11,200 @@ const Travel = () => {
 						Путешествия
 					</h3>
 
-					<div className="content__margin w100 trans__inner">
-						
+					<div className="content__margin w100 trans__inner flex">
+						<div className="travel__content w100 content__margin">
+							<div className="travel__item flexcenter">
+								<img className="travel__item--img" src="/assets/img/car.png" alt="Картинка" />
+
+								<div className="travel__price">
+									200 NRX
+								</div>
+
+								<div className="travel__item--title w100">
+									Доступно для премиум ранка
+								</div>
+
+								<p className="travel__item--text--title">
+									BMW X5
+								</p>
+
+								<p className="travel__item--text">
+									3л. полный привод
+								</p>
+
+								<button className="button travel__item--button">
+									Накопить
+								</button>
+							</div>
+
+							<div className="travel__item flexcenter">
+								<img className="travel__item--img" src="/assets/img/car.png" alt="Картинка" />
+
+								<div className="travel__price">
+									200 NRX
+								</div>
+
+								<div className="travel__item--title w100">
+									Доступно для премиум ранка
+								</div>
+
+								<p className="travel__item--text--title">
+									BMW X5
+								</p>
+
+								<p className="travel__item--text">
+									3л. полный привод
+								</p>
+
+								<button className="button travel__item--button">
+									Накопить
+								</button>
+							</div>
+
+							<div className="travel__item flexcenter">
+								<img className="travel__item--img" src="/assets/img/car.png" alt="Картинка" />
+
+								<div className="travel__price">
+									200 NRX
+								</div>
+
+								<div className="travel__item--title w100">
+									Доступно для премиум ранка
+								</div>
+
+								<p className="travel__item--text--title">
+									BMW X5
+								</p>
+
+								<p className="travel__item--text">
+									3л. полный привод
+								</p>
+
+								<button className="button travel__item--button">
+									Накопить
+								</button>
+							</div>
+
+							<div className="travel__item flexcenter">
+								<img className="travel__item--img" src="/assets/img/car.png" alt="Картинка" />
+
+								<div className="travel__price">
+									200 NRX
+								</div>
+
+								<div className="travel__item--title w100">
+									Доступно для премиум ранка
+								</div>
+
+								<p className="travel__item--text--title">
+									BMW X5
+								</p>
+
+								<p className="travel__item--text">
+									3л. полный привод
+								</p>
+
+								<button className="button travel__item--button">
+									Накопить
+								</button>
+							</div>
+
+							<div className="travel__item flexcenter">
+								<img className="travel__item--img" src="/assets/img/car.png" alt="Картинка" />
+
+								<div className="travel__price">
+									200 NRX
+								</div>
+
+								<div className="travel__item--title w100">
+									Доступно для премиум ранка
+								</div>
+
+								<p className="travel__item--text--title">
+									BMW X5
+								</p>
+
+								<p className="travel__item--text">
+									3л. полный привод
+								</p>
+
+								<button className="button travel__item--button">
+									Накопить
+								</button>
+							</div>
+
+							<div className="travel__item flexcenter">
+								<img className="travel__item--img" src="/assets/img/car.png" alt="Картинка" />
+
+								<div className="travel__price">
+									200 NRX
+								</div>
+
+								<div className="travel__item--title w100">
+									Доступно для премиум ранка
+								</div>
+
+								<p className="travel__item--text--title">
+									BMW X5
+								</p>
+
+								<p className="travel__item--text">
+									3л. полный привод
+								</p>
+
+								<button className="button travel__item--button">
+									Накопить
+								</button>
+							</div>
+
+							<div className="travel__item flexcenter">
+								<img className="travel__item--img" src="/assets/img/car.png" alt="Картинка" />
+
+								<div className="travel__price">
+									200 NRX
+								</div>
+
+								<div className="travel__item--title w100">
+									Доступно для премиум ранка
+								</div>
+
+								<p className="travel__item--text--title">
+									BMW X5
+								</p>
+
+								<p className="travel__item--text">
+									3л. полный привод
+								</p>
+
+								<button className="button travel__item--button">
+									Накопить
+								</button>
+							</div>
+
+							<div className="travel__item flexcenter">
+								<img className="travel__item--img" src="/assets/img/car.png" alt="Картинка" />
+
+								<div className="travel__price">
+									200 NRX
+								</div>
+
+								<div className="travel__item--title w100">
+									Доступно для премиум ранка
+								</div>
+
+								<p className="travel__item--text--title">
+									BMW X5
+								</p>
+
+								<p className="travel__item--text">
+									3л. полный привод
+								</p>
+
+								<button className="button travel__item--button">
+									Накопить
+								</button>
+							</div>
+						</div>
 
 						<p className="content__margin">
 							Вы можете связаться со службой поддержки и узнать какие еще есть направления, или направлении которое интересует именно вас.

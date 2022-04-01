@@ -75,75 +75,61 @@ const Struct = () => {
 					</h3>
 
 					<div className="content__margin w100 flex admin__last">
-						<div className="w100 flexdef admin__last--item">
-							<p className="admin__last--text admin__last--blue admin__last--program">
-								Программа
-							</p>
+						<table className="admin__last w100">
+							<tr className="last__item">
+								<th>Партнер</th>
+								<th>Инвестировали</th>
+								<th>Всего заработали</th>
+								<th>Оборот</th>
+								<th>Статус</th>
+								<th>Дата регистрации</th>
+							</tr>
 
-							<p className="admin__last--text admin__last--blue admin__last--sum">
-								Сумма
-							</p>
+							<tr className="last__item">
+								<td>Иван Демьянов</td>
+								<td>356 USD</td>
+								<td>356 USD</td>
+								<td className="green">5000 USD</td>
+								<td className="green">Start</td>
+								<td>25/12/2022</td>
+							</tr>
 
-							<p className="admin__last--text admin__last--blue admin__last--date">
-								Дата регистрации
-							</p>
-						</div>
+							<tr className="last__item">
+								<td>Иван Демьянов</td>
+								<td>356 USD</td>
+								<td>356 USD</td>
+								<td className="green">5000 USD</td>
+								<td className="green">Start</td>
+								<td>25/12/2022</td>
+							</tr>
 
-						<div className="w100 flexdef admin__last--item">
-							<p className="admin__last--text admin__last--program">
-								Название программы
-							</p>
+							<tr className="last__item">
+								<td>Иван Демьянов</td>
+								<td>356 USD</td>
+								<td>356 USD</td>
+								<td className="green">5000 USD</td>
+								<td className="green">Start</td>
+								<td>25/12/2022</td>
+							</tr>
 
-							<p className="admin__last--text admin__last--sum">
-								0,002356 BTC
-							</p>
+							<tr className="last__item">
+								<td>Иван Демьянов</td>
+								<td>356 USD</td>
+								<td>356 USD</td>
+								<td className="green">5000 USD</td>
+								<td className="green">Start</td>
+								<td>25/12/2022</td>
+							</tr>
 
-							<p className="admin__last--text admin__last--date">
-								25/12/2022
-							</p>
-						</div>
-
-						<div className="w100 flexdef admin__last--item">
-							<p className="admin__last--text admin__last--program">
-								Название программы
-							</p>
-
-							<p className="admin__last--text admin__last--sum">
-								0,002356 BTC
-							</p>
-
-							<p className="admin__last--text admin__last--date">
-								25/12/2022
-							</p>
-						</div>
-
-						<div className="w100 flexdef admin__last--item">
-							<p className="admin__last--text admin__last--program">
-								Название программы
-							</p>
-
-							<p className="admin__last--text admin__last--sum">
-								0,002356 BTC
-							</p>
-
-							<p className="admin__last--text admin__last--date">
-								25/12/2022
-							</p>
-						</div>
-
-						<div className="w100 flexdef admin__last--item">
-							<p className="admin__last--text admin__last--program">
-								Название программы
-							</p>
-
-							<p className="admin__last--text admin__last--sum">
-								0,002356 BTC
-							</p>
-
-							<p className="admin__last--text admin__last--date">
-								25/12/2022
-							</p>
-						</div>
+							<tr className="last__item">
+								<td>Иван Демьянов</td>
+								<td>356 USD</td>
+								<td>356 USD</td>
+								<td className="green">5000 USD</td>
+								<td className="green">Start</td>
+								<td>25/12/2022</td>
+							</tr>
+						</table>
 					</div>
 				</div>
 			</div>

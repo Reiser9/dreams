@@ -2866,6 +2866,88 @@ td, th{
     margin-top: 0;
 }
 
+/* Настройки */
+.settings__content{
+    background: linear-gradient(105.34deg, #161616 0%, #353535 100%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+.setting__side--title{
+    color: #fff;
+    font-weight: 500;
+}
+
+.centerflex{
+    display: flex;
+    justify-content: center;
+}
+
+.travel__content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+}
+
+.travel__item{
+    background: #FFF7D0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.travel__item--img{
+    max-width: 100%;
+}
+
+.travel__price{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background: #61D64A;
+    font-weight: 500;
+    color: #fff;
+    padding: 0.8rem 1.6rem;
+    border-radius: 10px 0 0 10px;
+}
+
+.travel__item--title{
+    padding: 1.5rem 2rem;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(88.71deg, #FF8837 21.92%, #F8BB4A 79.99%);
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.travel__item--text--title{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1.5rem;
+
+}
+
+.travel__item--text{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.travel__item--button{
+    margin-top: 1.5rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background: #5E89CC;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: 1.3rem 2rem;
+}
+
 /* Адаптив */
 @media(max-width: 1670px){
     .trans__item{
@@ -3537,7 +3619,7 @@ td, th{
         justify-content: center;
     }
 
-    .transaction__content{
+    .transaction__content, .settings__content{
         padding: 1.5rem;
     }
 

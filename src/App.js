@@ -41,6 +41,7 @@ import Balance from './pages/Balance/Balance.jsx';
 import Transaction from './pages/Transaction/Transaction.jsx';
 import Retransaction from './pages/Retransaction/Retransaction.jsx';
 import Travel from './pages/Travel/Travel.jsx';
+import Settings from './pages/Settings/Settings.jsx';
 
 const App = () => {
     return(
@@ -84,6 +85,7 @@ const App = () => {
                 <Route path="transaction" element={<Transaction />} />
                 <Route path="retransaction" element={<Retransaction />} />
                 <Route path="travel" element={<Travel />} />
+                <Route path="settings" element={<Settings />} />
             </Route>
         </Routes>
     )
